@@ -12,6 +12,7 @@ $(document).ready(function() {
       else
       {
          $("#formulaire").hide();
+          window.open("http://simplon-renaudv.github.io/");
       }
       return false;
    });
