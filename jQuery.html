@@ -1,0 +1,26 @@
+<!DOCTYPE htm
+<html>
+<head>
+	<title>JQuery</title>
+    <meta charset="utf-8">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+</head>
+<body>
+	
+	<form id="formulaire">
+		<div id="divLogin"><label for="login">Login :<br></label><input type="text" id="login" placeholder="Entrez votre login"></input><br></div>
+		<div id="divPwd"><label for="pwd">Mot de passe :<br></label><input type="password" id="pwd" placeholder="Entrez votre mot de passe"  pattern=".{5,}[0-9a-zA-Z]"></input><br></div>
+		<a href="#" id="mdpOubli">Mot de passe oublié</a><br>
+		<div id="divMail"><label for="mail">Email :<br></label><input type="email" id="mail" placeholder="Entrez votre addresse mail"></input></div>
+		<input type="submit" id="bouton" value="Envoyer"></input>
+	</form>
+
+	<div id="msgErreur">Identification incorrecte</div>
+
+<script src='JQuery.js'></script>
+
+</body>
+</html>
+
